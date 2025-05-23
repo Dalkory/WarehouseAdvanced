@@ -104,7 +104,7 @@ public class WarehouseServiceTests
     public async Task GetTopPalletsByBoxExpirationAsync_InvalidTopCount_ShouldThrow(int topCount)
     {
         // Act & Assert
-        await Assert.ThrowsAsync<ArgumentException>(() =>
+        await Assert.ThrowsAsync<ArgumentOutOfRangeException>(() =>
             _service.GetTopPalletsByBoxExpirationAsync(topCount));
     }
 
