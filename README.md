@@ -1,6 +1,6 @@
 # Warehouse Management System
 
-![.NET](https://img.shields.io/badge/.NET-6.0-blue)
+![.NET](https://img.shields.io/badge/.NET-8.0-blue)
 [![C# Coding Style](https://img.shields.io/badge/code%20style-Microsoft-blue)](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
 
 Консольное приложение для управления складом паллет и коробок с возможностью группировки и сортировки по различным параметрам.
